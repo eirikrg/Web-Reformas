@@ -28,7 +28,7 @@ const routes = [
     component: Proyectos
   },
   {
-    path: '/laparas',
+    path: '/lamparas',
     name: 'Lámparas',
     component: Lamparas
   },
