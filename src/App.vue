@@ -1,9 +1,12 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/sobre-nosotros">Sobre nosotros</router-link> |
-      <router-link to="/contacta">Contacta</router-link>
+      <router-link to="/">Inicio</router-link> |
+      <router-link to="/proyectos">Proyectos</router-link> |
+      <router-link to="/lamparas">Lámparas</router-link> |
+      <router-link to="/disenyos-propios">Modelos de diseño propios</router-link> |
+      <router-link to="/asesoramiento">Asesoramiento</router-link> |
+      <router-link to="/sobre-nosotros">Sobre nosotros</router-link>
     </div>
     <router-view/>
   </div>

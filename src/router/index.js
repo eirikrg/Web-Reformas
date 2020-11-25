@@ -2,9 +2,12 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 //Importamos las vistas
-import Home from '../views/Home.vue'
+import Inicio from '../views/Inicio.vue'
 import About from '../views/About.vue'
-import Contact from '../views/Contact.vue'
+import Proyectos from '../views/Proyectos.vue'
+import Lamparas from '../views/Lamparas.vue'
+import Disenyos from '../views/Disenyos.vue'
+import Asesoramiento from '../views/Asesoramiento.vue'
 
 Vue.use(VueRouter)
 
@@ -12,7 +15,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Inicio
   },
   {
     path: '/sobre-nosotros',
@@ -20,9 +23,24 @@ const routes = [
     component: About
   },
   {
-    path: '/contacta',
-    name: 'Contacta',
-    component: Contact
+    path: '/proyectos',
+    name: 'Proyectos',
+    component: Proyectos
+  },
+  {
+    path: '/laparas',
+    name: 'Lámparas',
+    component: Lamparas
+  },
+  {
+    path: '/disenyos-propios',
+    name: 'Modelos de diseño propios',
+    component: Disenyos
+  },
+  {
+    path: '/asesoramiento',
+    name: 'Asesoramiento',
+    component: Asesoramiento
   }
 ]
 
