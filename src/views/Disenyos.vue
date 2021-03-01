@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
-    <h1>Diseños</h1>
+  <div class="container-fluid">
+    Disenyos
   </div>
 </template>
